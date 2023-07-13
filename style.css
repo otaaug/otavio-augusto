@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+header {
+  position: relative;
+  height: 500px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/luanova.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+  z-index: -1;
+}
+
+.header-text {
+  margin-top: 30px;
+  width: 100%;
+  color: #fff;
+}
+
+.header-text > h1 {
+  margin-bottom: 170px;
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+
+.header-text > h2 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-family: Manrope,Helvetica, Arial, Sans-Serif, serif;
+}
+
+.header-text > h3 {
+  font-size: 20px;
+  font-family: Manrope,Helvetica, Arial, Sans-Serif, serif;
+}
+
+.hobbies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-around;
+  margin: 30vh auto auto auto;
+  width: 52%;
+}
+
+.hobbies img {
+  height: 300px;
+  width: 350px;
+}
+
+.hobbies div {
+  width: 100%;
+  display: flex;
+  margin-bottom: 10%;
+}
+
+.hobbies div div {
+  display: block;
+}
+
+
+.hobbies h1 {
+  margin-left: 10%;
+  margin-top: 20%;
+  font-family: Manrope,Helvetica, Arial, Sans-Serif, serif;
+  font-weight: 600;
+  font-size: 2.625em;
+  line-height: 1.143;
+  color: #263238;
+}
+
+.youtube {
+   margin: auto;
+}
+
+.ler {
+   margin: auto;
+}
+
+
+.hobbies p {
+  text-align: left;
+  color: #4f4f4f;
+  font-weight: 300;
+  line-height: 1.6;
+  width: 400px;
+}
+
+.about {
+  width: 90%;
+  height: 80vh;
+  background-color: #f7f8f9;
+  margin: 25vh auto auto auto;
+}
+
+.about h1,p,div {
+  width: 45%;
+  margin-left: 10%;
+}
+
+.about h1 {
+   padding-top: 15vh;
+  font-weight: 400;
+  font-size: 3.375em;
+  line-height: 1.26;
+}
+
+.about p {
+  font-weight: 300;
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+
+.about ul li {
+  font-size: 16px;
+  color: grey;
+  text-decoration: none;
+}
+
+.about div {
+  display: flex;
+}
+
+.about li {
+  display: flex;
+  margin-top: 50px;
+  list-style: none;
+  margin-right: 350px;
+}
+
+.about li div {
+  background-color: #d3e3ff;
+  height: 30px;
+  width: 30px;
+  border-radius: 25px;
+  display: flex;
+} 
+
+
+
+.dois {
+  width: 300px;
+  margin-left: 15px;
+}
+
+.fas {
+  color: #1852ec;
+  margin: auto;
+}
+
+.spacing{
+  margin-bottom: 60px;
+}
+
+footer{
+  background-color: rgba(176, 190, 197, 0.1);
+  width: 100%;
+  height: 300px;
+}
+
+footer > *{
+  margin-left: 70px;
+}
+
+footer > h2{
+  margin-top: 10px;
+  color: #2922FF;
+  font-size: 54px;
+  font-family: Manrope,Helvetica, Arial, Sans-Serif, serif;
+}
+
+.footer-informations{
+  display: flex;
+  color: #78909C;
+}
+
+.footer-informations i{
+  margin-left:  0;
+}
+
+.footer-informations p{
+    position: relative;
+    right: 430px;
+}
+
